@@ -1,0 +1,37 @@
+@import "commom.css";
+@import "buttons.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: "Providence-Sans-Regular";
+    src: url("../../public/fonts/Providence-Sans-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+[x-cloak] {
+    display: none;
+}
+
+html {
+    background-image: linear-gradient(
+        to right top,
+        #d16ba5,
+        #c777b9,
+        #ba83ca,
+        #aa8fd8,
+        #9a9ae1,
+        #8aa7ec,
+        #79b3f4,
+        #69bff8,
+        #52cffe,
+        #41dfff,
+        #46eefa,
+        #5ffbf1
+    );
+    font-family: Georgia, "Times New Roman", Times, serif;
+    scrollbar-color: rgb(121, 121, 194) rgb(0, 238, 255);
+}
+
